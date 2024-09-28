@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.6
+  http: ^1.2.2
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
 
 dev_dependencies:
   flutter_test:
