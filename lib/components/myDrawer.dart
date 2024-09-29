@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_food_delivery/components/myDrawerTile.dart';
+import 'package:flutter_food_delivery/pages/settingsPage.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -40,10 +41,10 @@ class MyDrawer extends StatelessWidget {
             icon: Icons.settings,
             onTap: () {
               Navigator.pop(context);
-              Navigator.pop(
+              Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const SettingPage(),
+                  builder: (context) => const SettingsPage(),
                 ),
               );
             },
